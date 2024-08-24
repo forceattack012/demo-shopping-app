@@ -1,0 +1,7 @@
+CREATE TABLE customer(
+    id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name        VARCHAR(255)   NOT NULL,
+    last_name VARCHAR(255),
+    created_at  TIMESTAMP      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    modified_at TIMESTAMP      NOT NULL DEFAULT CURRENT_TIMESTAMP
+)
